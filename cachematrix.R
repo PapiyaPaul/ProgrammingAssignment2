@@ -1,11 +1,12 @@
 
 #R Assignement for Papiya Paul (papiya.paul@tcs.com)
 
-# This function creates a special "matrix" object that can cache its inverse 
+# This function creates a special "matrix" object that can cache its inverse
+# makeCacheMatrix() function holds getter setter method for input matrix and its inverse
 
 makeCacheMatrix <- function(x=matrix()) {
 
-    inv_matrix = NULL  # stores the inverse matrix
+    inv_matrix <- NULL  # stores the inverse matrix
 
     set <- function(y) {  # setter method of input matrix
 	x <<-y
